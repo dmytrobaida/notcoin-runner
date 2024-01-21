@@ -1,0 +1,17 @@
+curl 'https://clicker-api.joincommunity.xyz/clicker/core/click' \
+-X 'POST' \
+-H 'Content-Type: application/json' \
+-H 'Accept: application/json' \
+-H 'Authorization: Bearer '$1'' \
+-H 'Sec-Fetch-Site: same-site' \
+-H 'Accept-Language: en-GB,en;q=0.9' \
+-H 'Accept-Encoding: gzip, deflate, br' \
+-H 'Sec-Fetch-Mode: cors' \
+-H 'Host: clicker-api.joincommunity.xyz' \
+-H 'Origin: https://clicker.joincommunity.xyz' \
+-H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148' \
+-H 'Referer: https://clicker.joincommunity.xyz/' \
+-H 'Connection: keep-alive' \
+-H 'Sec-Fetch-Dest: empty' \
+-H 'auth: 6' \
+--data-binary ''$2''

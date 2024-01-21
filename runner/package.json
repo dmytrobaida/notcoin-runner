@@ -1,0 +1,11 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "curlconverter": "^4.9.0",
+    "puppeteer": "^21.7.0"
+  }
+}
