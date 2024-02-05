@@ -1,3 +1,5 @@
+# Notcoin bot for automatic mining NOT coins
+
 # How to run
 
 1. install all dependencies in runner folder using `yarn install`
@@ -6,3 +8,7 @@
 4. run it using `node index.js` command
 
 ![How to copy curl](step1.gif)
+
+## Be aware
+
+Telegram webapp session can be active for approximately 2 hours. After that period you should restart bot using steps above
